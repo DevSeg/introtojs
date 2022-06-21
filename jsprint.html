@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Zuri Print
+    </title>
+</head>
+
+<body style="display: flex;
+justify-content: center;
+height: 100vh;
+align-items: center;">
+    <div class="parentDiv" style="display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;">
+        <div id="name"></div>
+        <div id="height">Height</div>
+        <div id="country">country</div>
+    </div>
+    <style>
+        div {
+            font-size: 50px;
+        }
+    </style>
+    <script>
+        var userName, height, country;
+        userName = "Salami Oluasegun";
+        height = "6ft.11 inches";
+        country = "Nigeria"
+
+        var elName = document.getElementById("name");
+        var elHeight = document.getElementById("height");
+        var elCountry = document.getElementById("country");
+
+        elName.innerHTML = userName;
+        elHeight.innerHTML = height;
+        elCountry.innerHTML = country;
+
+    </script>
+
+</body>
+
+
+</html>
